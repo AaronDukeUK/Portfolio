@@ -1,0 +1,34 @@
+.socialContainer
+    position: fixed
+    top: 20px
+    right: 40px
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    align-items: center
+    background: transparent
+    border: none
+    padding: 0
+    z-index: 10
+    a
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin: 5px 0
+        svg
+            width: 35px
+            height: 35px
+            transition: 0.25s ease-in
+            path
+                fill: #0a0a0a
+        svg:hover
+            transform: translate(10px)
+    @media only screen and (max-width: 1050px)
+        display: none
+
+.socialLine
+    height: 50px
+    width: 4px
+    background: #0a0a0a
+    margin: 0 0 5px 0

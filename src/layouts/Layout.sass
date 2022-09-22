@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Titillium+Web:wght@400;700;900&display=swap")
+
+*
+  color: #0a0a0a
+
+//Typography
+
+h1
+  font-family: 'Titillium Web'
+  font-weight: 900
+  font-size: 6rem
+  text-transform: uppercase
+  letter-spacing: 0.5rem
+  @media only screen and (max-width: 1000px)
+    font-size: 3rem
+  @media only screen and (max-width: 600px)
+    font-size: 2rem
+    letter-spacing: 0.3rem
+
+h2
+  font-family: 'Titillium Web'
+  font-weight: 900
+  font-size: 5rem
+  text-transform: uppercase
+  letter-spacing: 0.5rem
+  @media only screen and (max-width: 1050px)
+    font-size: 3rem
+    letter-spacing: 0.3rem
+  @media only screen and (max-width: 600px)
+    font-size: 2rem
+    letter-spacing: 0.2rem
+
+.heroLead
+  font-family: 'Montserrat'
+  font-size: 1.5rem
+  margin: 20px 0
+  letter-spacing: 0.2rem
+  line-height: 1.2
+  @media only screen and (max-width: 1000px)
+    font-size: 1.2rem
+  @media only screen and (max-width: 600px)
+    font-size: 1rem
+
+p
+  font-family: 'Montserrat'
+  font-size: 1rem
+  line-height: 1.5
+  margin: 20px 0
+  font-weight: 500
+  letter-spacing: 0.1rem
+
+a
+  text-decoration: none
+
+.link
+  font-family: 'Montserrat'
+  font-size: 1rem
+  line-height: 1.5rem
+  margin: 20px 0
+  font-weight: 500
+  letter-spacing: 0.1rem
+  transition: 0.25s ease-in
+  background-repeat: no-repeat
+  background-size: 0% 50%
+  background-position: 0% 100%
+  text-decoration: none
+
+.activeLink
+  font-weight: bold
+
+.bold
+  font-family: 'Titillium Web'
+  font-weight: 800
+  letter-spacing: 0.2rem
+
+.italic
+  font-style: italic
+  display: inline-block
+  background-repeat: no-repeat
+  background-size: 100% 0.4em
+  background-position: 0 75%
+  margin: 0
+  font-weight: 400
+
+.smallText
+  font-size: 1rem
+  line-height: 1.5rem
+
+.largeText
+  font-size: 1.5rem
+  line-height: 1.5rem
+
+.lead
+  font-size: 1.5rem
+  font-weight: bold
+  font-family: 'Titillium Web'
+  margin: 0 0 40px 0
+  line-height: 1.8rem
+  @media only screen and (max-width: 400px)
+    font-size: 1.2rem
+
+.punch
+  display: inline-block
+  font-size: 2rem
+  line-height: 1.2rem
+  margin: 0 0 0 5px
+
+
+
+//colors
+
+.blueBG
+  background: #2a9d8f
+
+.yellowBG
+  background: #e9c46a
+
+.orangeBG
+  background: #e76f51
+
+.whiteBG
+  background: white
+
+.greyBG
+  background: #F8F8F8
+
+.coloredBlue
+  color: #2a9d8f
+
+.coloredYellow
+  color: #c08c09
+
+.coloredOrange
+  color: #d13710
+
+
+
+// home section styles
+
+.homeContainer
+  display: flex
+  flex-direction: column
+  width: 100%
+  background: white
+
+.homeSectionContainer
+  width: 100%
+  padding: 200px 0
+  overflow: hidden
+  @media only screen and (max-width: 1300px)
+    padding: 100px 150px
+  @media only screen and (max-width: 800px)
+    padding: 100px 100px
+  @media only screen and (max-width: 600px)
+    padding: 100px 50px
+  @media only screen and (max-width: 400px)
+    padding: 100px 40px
+  
+.projectsContainer
+  padding: 200px 0 100px 0
+  @media only screen and (max-width: 1300px)
+    padding: 100px 150px 0 150px
+  @media only screen and (max-width: 800px)
+    padding: 100px 100px 0px 100px
+  @media only screen and (max-width: 600px)
+    padding: 100px 50px 50px 50px
+  @media only screen and (max-width: 400px)
+    padding: 100px 40px 50px 40px
+
+.homeSection
+  width: 80%
+  margin: 0 auto
+  display: flex
+  align-items: center
+  justify-content: space-between
+  @media only screen and (max-width: 1300px)
+    width: 100%
+    flex-direction: column
+    align-items: flex-start
+
+.homeSection.speed
+  @media only screen and (max-width: 1300px)
+    flex-direction: column-reverse
+
+.homeText
+  width: 500px
+  h2
+    margin-top: 80px
+  @media only screen and (max-width: 1300px)
+    width: 500px
+  @media only screen and (max-width: 800px)
+    width: 60%
+  @media only screen and (max-width: 600px)
+    width: 80%
+  @media only screen and (max-width: 400px)
+    width: 100%
+
+.homeImage
+  position: relative
+  height: 500px
+  width: 750px
+  object-fit: cover
+  @media only screen and (max-width: 1500px)
+    height: 400px
+    width: 600px
+  @media only screen and (max-width: 1300px)
+    height: 400px
+    width: 600px
+    align-self: flex-end
+    margin-top: 100px
+  @media only screen and (max-width: 850px)
+    height: 350px
+    width: 100%
+    align-self: center
+  @media only screen and (max-width: 600px)
+    height: 200px
+    margin-top: 50px
+
+.projects
+  flex-direction: column
+  align-items: flex-start
+
+.noPaddingBottom
+  padding: 40px 0 0 0
+
+.logo
+  width: 40px
+  height: 40px
