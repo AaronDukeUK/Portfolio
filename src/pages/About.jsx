@@ -1,9 +1,6 @@
-import { useState } from "react"
-
 import "./About.sass"
 
 const About = () => {
-  let [active, setActive] = useState(false)
   return (
     <main className="aboutContainer">
       <section className="aboutSectionContainer greyBG">

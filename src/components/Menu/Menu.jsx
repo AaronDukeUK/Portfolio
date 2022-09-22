@@ -3,10 +3,6 @@ import { Link } from "react-router-dom"
 import "./Menu.sass"
 
 const Menu = ({ open, setOpen }) => {
-  const handleClick = (e) => {
-    e.preventDefault()
-    setOpen(false)
-  }
   return (
     <div
       style={{ transform: `${open ? "translateX(0)" : "translateX(-100%)"}` }}
