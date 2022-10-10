@@ -21,7 +21,6 @@ const Menu = ({ open, setOpen }) => {
           </Link>
         </div>
         <div className="address">
-          <p>70 The Street, Kings Lynn, PE32 2DR</p>
           <p>+44(0) 7435 236295</p>
           <p>hello@aaronduke.co.uk</p>
         </div>

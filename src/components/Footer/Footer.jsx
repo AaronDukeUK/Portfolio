@@ -10,7 +10,6 @@ const Footer = () => {
         </a>
       </div>
       <div className="address">
-        <p>10 Beehive Way, Dereham, NR20 4WH</p>
         <p>+44(0) 7435 236295</p>
         <p>hello@aaronduke.co.uk</p>
       </div>
